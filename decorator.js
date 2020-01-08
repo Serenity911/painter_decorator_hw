@@ -46,6 +46,8 @@ Decorator.prototype.paintRoom = function(room) {
         this.stock[i].reduceQuantity();
         room.increasePaintedArea();
         litresToRemove--
+        this.removeEmptyCan;
+
       };
     };
 
